@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zxx">
 <head>
     <meta charset="UTF-8">
@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="desktop-nav">
-        <div class="container-fluid container-fluid px-5 mx-5">
+        <div class="container-fluid px-5 mx-5">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="index.html">
                     <img alt="logo" src="assets/images/white-logo.png">
@@ -407,12 +407,10 @@
                                 <div class="form-group">
                                     <label for="city">City</label>
                                     <select class="form-control" id="city" name="city" required>
-                                        <option value="">Please select a city</option>
-                                        <option value="new_york">New York</option>
-                                        <option value="los_angeles">Los Angeles</option>
-                                        <option value="chicago">Chicago</option>
-                                        <option value="houston">Houston</option>
-                                        <option value="phoenix">Phoenix</option>
+                                        <option value="">Desired Study type</option>
+                                        <option value="new_york">Foundation</option>
+                                        <option value="los_angeles">Bachelors</option>
+                                        <option value="chicago">Masters</option>
                                         <!-- Add more city options as needed -->
                                     </select>
                                     <div class="help-block with-errors"></div>
@@ -462,9 +460,12 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12">
-                                <button class="default-btn disabled" type="submit">
-                                    <span>Send message</span>
-                                </button>
+                                <a href="mailto:someone@example.com?subject=Email Subject&body=Message Body">
+                                    <button class="default-btn disabled" type="submit">
+                                        <span>Send message</span>
+                                    </button>
+                                </a>
+
                                 <div class="h3 text-center hidden" id="msgSubmit"></div>
                                 <div class="clearfix"></div>
                             </div>
